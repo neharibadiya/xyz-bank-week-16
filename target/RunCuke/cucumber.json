@@ -1,0 +1,664 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4012280400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify the bankManager Should Open Account Successfully",
+        "description": "",
+        "id": "bank-manager-login;verify-the-bankmanager-should-open-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 981208900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96228400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on LoginPage",
+            "match": {
+              "location": "BankSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 401191400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click On \"Bank Manager Login\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank Manager Login",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31826700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click On \"Open Account\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Open Account",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnTab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230600,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.bank.steps.BankSteps.searchCustomerThatCreatedInFirstTest(String) in file:/C:/Users/KISSAN/IdeaProjects/xyz-bank-week-16/target/test-classes/\u0027 with pattern [^Search customer that created in first test$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. \nStep: And Search customer that created in first test\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Search customer that created in first test",
+            "match": {
+              "location": "BankSteps.searchCustomerThatCreatedInFirstTest(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Select currency \"Pound\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pound",
+                  "offset": 17
+                }
+              ],
+              "location": "BankSteps.selectCurrency()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "click on \"process\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "process",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.setClickOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "popup displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "verify message \"Account created successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account created successfully",
+                  "offset": 16
+                }
+              ],
+              "location": "BankSteps.verifyMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "click on \"ok\" button on popup.",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@sanity,"
+          },
+          {
+            "line": 15,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2351207200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify the customer Should Login And Logout Suceessfully.",
+        "description": "",
+        "id": "bank-manager-login;verify-the-customer-should-login-and-logout-suceessfully.",
+        "after": [
+          {
+            "result": {
+              "duration": 814496200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am on LoginPage",
+            "match": {
+              "location": "BankSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164700,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.bank.steps.BankSteps.clickOnTab() in file:/C:/Users/KISSAN/IdeaProjects/xyz-bank-week-16/target/test-classes/\u0027 with pattern [^click on \"([^\"]*)\" Tab$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Customer Login]. \nStep: When click on \"Customer Login\" Tab\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "click on \"Customer Login\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Login",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "search customer that you created.",
+            "match": {
+              "location": "BankSteps.searchCustomerThatYouCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "click on \"Login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "verify \"Logout\" Tab displayed.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 8
+                }
+              ],
+              "location": "BankSteps.verifyTabDisplayed(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "click on \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "verify \"Your Name\" text displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Name",
+                  "offset": 8
+                }
+              ],
+              "location": "BankSteps.verifyTextDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@smoke,"
+          },
+          {
+            "line": 27,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2549350100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Verify the customer Should Deposit Money Successfully.",
+        "description": "",
+        "id": "bank-manager-login;verify-the-customer-should-deposit-money-successfully.",
+        "after": [
+          {
+            "result": {
+              "duration": 841177800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I am on LoginPage",
+            "match": {
+              "location": "BankSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135900,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.bank.steps.BankSteps.clickOnTab() in file:/C:/Users/KISSAN/IdeaProjects/xyz-bank-week-16/target/test-classes/\u0027 with pattern [^click on \"([^\"]*)\" Tab$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Customer Login]. \nStep: When click on \"Customer Login\" Tab\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "click on \"Customer Login\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Login",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "search customer that you created.",
+            "match": {
+              "location": "BankSteps.searchCustomerThatYouCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "click on \"Login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "click on \"Deposit\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deposit",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "Enter amount 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 13
+                }
+              ],
+              "location": "BankSteps.enterAmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "click on \"Deposit\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deposit",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "verify message \"Deposit Successful\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deposit Successful",
+                  "offset": 16
+                }
+              ],
+              "location": "BankSteps.verifyMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@smoke,"
+          },
+          {
+            "line": 37,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2858255300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Verify the customer Should With draw Money Successfully",
+        "description": "",
+        "id": "bank-manager-login;verify-the-customer-should-with-draw-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 824602800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I am on LoginPage",
+            "match": {
+              "location": "BankSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156000,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027com.bank.steps.BankSteps.clickOnTab() in file:/C:/Users/KISSAN/IdeaProjects/xyz-bank-week-16/target/test-classes/\u0027 with pattern [^click on \"([^\"]*)\" Tab$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Customer Login]. \nStep: When click on \"Customer Login\" Tab\r\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\r\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\r\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "status": "failed"
+            },
+            "line": 51,
+            "name": "click on \"Customer Login\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Login",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "search customer that you created.",
+            "match": {
+              "location": "BankSteps.searchCustomerThatYouCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "click on \"Login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "click on \"Withdrawl\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Withdrawl",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "Enter amount 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 13
+                }
+              ],
+              "location": "BankSteps.enterAmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "click on \"Withdraw\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Withdraw",
+                  "offset": 10
+                }
+              ],
+              "location": "BankSteps.clickOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "verify message \"Transaction Successful",
+            "match": {
+              "location": "BankSteps.verifyMessageTransactionSuccessful(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Manager Login",
+    "description": "",
+    "id": "bank-manager-login",
+    "keyword": "Feature",
+    "uri": "Bank.feature"
+  }
+]

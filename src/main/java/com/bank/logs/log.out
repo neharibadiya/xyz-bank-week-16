@@ -1,0 +1,13 @@
+2023-05-22 17:05:828 INFO  AddCustomerPage :27 - click On Add Customer Tab
+2023-05-22 17:05:928 INFO  AddCustomerPage :27 - click On Add Customer TabProxy element for: DefaultElementLocator 'By.xpath: //button[@ng-class = 'btnClass1']'
+2023-05-22 17:05:592 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (2dffe823fab6957ccf972e50ec8a72d1)] -> xpath: //button[normalize-space()='Bank Manager Login']]
+2023-05-22 17:05:697 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (2dffe823fab6957ccf972e50ec8a72d1)] -> xpath: //button[normalize-space()='Bank Manager Login']]
+2023-05-22 17:05:378 INFO  OpenAccountPage :27 - click Customer Name ListProxy element for: DefaultElementLocator 'By.xpath: //select[@id='userSelect']'
+2023-05-22 17:05:669 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (e7306365d0b1d006c82cdec115c2c574)] -> xpath: //button[normalize-space()='Bank Manager Login']]
+2023-05-22 17:05:814 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (e7306365d0b1d006c82cdec115c2c574)] -> xpath: //button[normalize-space()='Bank Manager Login']]
+2023-05-22 17:05:906 INFO  OpenAccountPage :27 - click Customer Name ListProxy element for: DefaultElementLocator 'By.xpath: //select[@id='userSelect']'
+2023-05-23 16:05:885 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (b210d99565ca26c30a4e9ceb6aa1c850)] -> xpath: //button[normalize-space()='Bank Manager Login']]
+2023-05-23 16:05:967 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (b210d99565ca26c30a4e9ceb6aa1c850)] -> xpath: //button[normalize-space()='Bank Manager Login']]
+2023-05-23 16:05:20 INFO  OpenAccountPage :27 - click Customer Name ListProxy element for: DefaultElementLocator 'By.xpath: //select[@id='userSelect']'
+2023-05-23 16:05:933 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (14d674f415cff64e7c6c98711a30f75d)] -> xpath: //button[normalize-space()='Bank Manager Login']]
+2023-05-23 16:05:01 INFO  AddCustomerPage :20 - click On Bank Manager Login Tab[[ChromeDriver: chrome on WINDOWS (14d674f415cff64e7c6c98711a30f75d)] -> xpath: //button[normalize-space()='Bank Manager Login']]
